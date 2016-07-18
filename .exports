@@ -1,4 +1,4 @@
-export EDITOR='vim';
+export EDITOR='emacs';
 
 # from http://stackoverflow.com/a/19533853
 
