@@ -13,3 +13,6 @@ alias sniff="sudo ngrep -d 'en0' -t '^(GET|POST) ' 'tcp and port 80'"
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# from _mastering saltstack_, needs "pip install pyyaml" first
+alias yaml="python -c 'import yaml; import sys; fh = open(sys.argv[1], \"r\"); print(yaml.safe_load(fh.read()))'"
